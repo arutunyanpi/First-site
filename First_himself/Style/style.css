@@ -1,0 +1,254 @@
+/**********************
+*********HEADER********
+**********************/
+.header .row{
+    height: 150px;
+}
+.header img{
+    margin-left: 70px;
+    margin-top:70px;
+}
+.header ul{
+  
+    margin-top:70px;
+    text-align: right;
+    margin-right: 70px;
+    
+    
+}
+   
+.header ul li{
+   margin-right:100px;
+   display:inline-block;
+   text-align: right;
+}
+.header ul li.first-right{
+    margin-right:0px;
+}
+
+.header li a{
+     display:inline;
+    text-decoration: none;
+    font-size:14px;
+    font-family:'Playfair Display', serif;
+    color:#626262;
+}
+.header li a:hover{
+    text-decoration: underline ;
+}
+/***********************
+***********woman********
+***********************/
+.woman img{
+    display:block;
+    width:1160px;
+    margin:0 auto;
+}
+.underp1 p{
+margin-top:100px;
+width: 1140px;
+}
+.article {
+    text-align:left;
+    font-size:14px;
+    color:#d9d6ce
+}
+.woman h2{
+    text-align:left;
+    font-size:30px;
+    color:#696969;
+    margin-top: 25px;
+}
+.woman p{
+    text-align:left;
+    font-size:14px;
+    color:#626262;
+    width: 900px;
+}
+.main_part {
+    
+     margin-top: 75px;
+}
+.p img{
+    height: 270px;
+    width: 420px;
+    margin:120px 0px 0px 0px ;
+   
+}
+
+.underpicture{
+    margin-top:30px;
+}
+.pcontext{
+    font-size: 30px;
+    color:626262;
+    padding-bottom: 45px;
+   margin:35px 0px 0px 0px;
+    padding-bottom:0px;
+}
+.p p{
+    width: 420px;
+    font-size:14px ;
+    color: #777777;
+    margin-top:40px;
+    padding:0px;
+}
+/****************
+*********form****
+****************/
+.form{
+    background-color: #f0f0f0;
+    height: 285px;
+}
+.form h2{
+    font-size:30px;
+    text-align:center;
+    font-weight: bold;
+   
+    margin-top: 70px;
+}
+form input{
+   display: block;
+    width: 400px;
+    margin:0px auto; 
+    background: none;
+    border:none;
+    border-bottom: 1px solid ;
+    font-size:14px;
+    padding-bottom: 10px;
+    margin-top:80px;
+}
+.cload{
+    margin-top:160px;
+}
+.load{
+    display:block;
+    text-decoration: none;
+    color:#626262;
+    width: 160px;
+    height: 60px;
+    margin:0 auto;
+    text-align: center ;
+    font-size:24px;
+    border-bottom: 1px solid #626262;
+    border-right: 1px solid #626262;
+    padding-top:15px;
+}
+/*************************
+************adaptive******
+*************************/
+@media (max-width: 575.98px) { ... }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .header ul li{
+        margin-right: 10px;
+        font-size:16px;
+        
+    }
+    .header li a{
+    
+    font-size:12px;
+    font-family:'Playfair Display', serif;
+    color:#626262;
+}
+    .header img {
+    margin-left: 10px;  
+        width:100px;
+        height:18px;
+}
+    .header ul{
+    margin-right:10px;
+        margin-top:60px;
+
+}
+    .woman img{
+    width:560px;
+   
+}
+    .underp1 p{
+margin-top:60px;
+width: 540px;
+}
+    .woman h2{
+   
+    font-size:20px;
+    color:#696969;
+  
+}
+    .p img{
+    height: 180px;
+    width: 250px;
+    margin:60px 0px 0px 0px ;
+   
+}
+    .p p{
+    width: 250px;
+    font-size:12px ;
+    margin-top:15px;
+   
+} 
+    .cload{
+        margin-top:60px;
+    }
+.load{
+    
+    
+    width: 120px;
+    height: 40px;
+    margin:0 auto;
+    text-align: center ;
+    font-size:20px;
+    border-bottom: 1px solid #626262;
+    border-right: 1px solid #626262;
+    padding-top:8px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .header ul li{
+        margin-right: 20px;
+    }
+    .header img {
+    margin-left: 40px;    
+}
+    .header ul{
+    margin-right:40px;  
+}
+    .woman img{
+    width:720px;
+   
+}
+    .underp1 p{
+margin-top:60px;
+width: 680px;
+}
+    .p img{
+    height: 200px;
+    width: 300px;
+    margin:80px 0px 0px 0px ;
+   
+}
+    .p p{
+    width: 300px;
+    font-size:14px ;
+    color: #777777;
+    margin-top:20px;
+    padding:0px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+    .header ul li{
+        margin-right: 60px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
